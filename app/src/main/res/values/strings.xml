@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rumah Aduan</string>
+    <string name="memilih_peran">Memilih Peran</string>
+    <string name="rumah_aduan">Rumah Aduan</string>
+    <string name="pilih_peranmu">Pilih Peranmu!</string>
+    <string name="peranmu_menentukan_siapa_dirimu">Peranmu menentukan siapa dirimu</string>
+    <string name="logo1">logo1</string>
+    <string name="admin">Admin</string>
+    <string name="gunakan_aplikasi_sebagai_admin">Gunakan aplikasi sebagai admin</string>
+    <string name="pelapor">Pelapor</string>
+    <string name="gunakan_aplikasi_sebagai_pelapor">Gunakan aplikasi sebagai Pelapor</string>
+    <string name="masukkan_nama_lengkap_anda_di_sini">Masukkan nama lengkap Anda di sini</string>
+    <string name="masukkan_kelas_anda_di_sini">masukkan kelas anda di sini</string>
+    <string name="masukkan_nisn_anda_di_sini">masukkan NISN anda di sini</string>
+</resources>
