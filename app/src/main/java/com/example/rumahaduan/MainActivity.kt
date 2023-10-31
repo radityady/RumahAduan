@@ -8,12 +8,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var admin: Button;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.a_activity_main)
 
         admin = findViewById(R.id.Admin)
         admin.setOnClickListener {
             // Kode untuk perpindahan ke halaman atau aktivitas login
-            val intent = Intent(this, AdminLogin::class.java) // Ganti 'LoginActivity' dengan nama kelas aktivitas login Anda
+            val intent = Intent(this, adminNew::class.java)
             startActivity(intent)
         }
 

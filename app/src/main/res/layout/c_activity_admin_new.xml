@@ -30,6 +30,7 @@
         android:padding="28dp"
         app:cardCornerRadius="28dp"
         android:layout_marginBottom="-20dp"
+        app:cardBackgroundColor="@color/white"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,14 +42,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Buat Akun"
+                android:textColor="@color/my_primary"
                 android:gravity="center_horizontal"
                 android:textSize="30sp"
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold"
                 android:id="@+id/title"
-                android:layout_marginBottom="30dp"
-                android:textColor="@color/my_primary"/>
-
+                android:layout_marginBottom="30dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -62,30 +62,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:inputType="textPersonName"
-                android:contentDescription="@string/masukkan_nama_lengkap_anda_di_sini" />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="20dp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Kelas"
-                android:fontFamily="sans-serif-condensed-light"
-                android:textSize="11sp"
-                android:textStyle="bold"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:inputType="text"
-                android:contentDescription="@string/masukkan_kelas_anda_di_sini"
+                android:hint="nama lengkap"
                 />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="NISN"
+                android:text="NIP/NIS"
                 android:fontFamily="sans-serif-condensed-light"
                 android:textSize="11sp"
                 android:textStyle="bold"/>
@@ -93,7 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:inputType="number"
-                android:contentDescription="@string/masukkan_nisn_anda_di_sini"
+                android:hint="NIP/NIS"
                 />
 
         </LinearLayout>
@@ -101,4 +90,3 @@
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
-
