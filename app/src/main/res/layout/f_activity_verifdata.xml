@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Buat Akun"
+                android:text="Verifikasi Data"
                 android:textColor="@color/my_primary"
                 android:gravity="center_horizontal"
                 android:textSize="30sp"
@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nama lengkap"
+                android:text="Kode Verifikasi"
                 android:fontFamily="sans-serif-condensed-light"
                 android:textSize="11sp"
                 android:textStyle="bold"/>
@@ -62,40 +62,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:inputType="textPersonName"
-                android:hint="nama lengkap"
+                android:hint="Masukkan Kode"
                 />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="20dp"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="20dp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="NIP/NIS"
-                android:fontFamily="sans-serif-condensed-light"
-                android:textSize="11sp"
-                android:textStyle="bold"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:inputType="number"
-                android:hint="NIP/NIS"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Lanjut"
-                />
+
             <TextView
                 android:layout_width="353dp"
                 android:layout_height="39dp"
                 android:fontFamily="sans-serif-condensed-light"
                 android:gravity="center_horizontal"
-                android:text="Sudah punya akun? Masuk"
-                android:textSize="12sp" />
+                android:text="Masukkan kode verifikasi yang telah dikirim melalui email atau nomor telepon anda"
+                android:textSize="12sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Lanjut"
+               />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="353dp"
+            android:layout_height="39dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center_horizontal"
+            android:text="Kode tidak terkirim? Kirim ulang"
+            android:textSize="12sp"
+                />
+
+
 
 
 
